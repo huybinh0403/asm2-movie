@@ -1,0 +1,42 @@
+.resultList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 350px;
+}
+
+.resultList_container {
+  width: 100%;
+}
+
+.resultList_title {
+  position: absolute;
+  color: white;
+  left: 1.2rem;
+}
+
+.resultList_posters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1.25rem;
+  padding: 2rem;
+  /* margin-top: 0.5rem; */
+}
+
+.resultList_poster {
+  width: 100%;
+  object-fit: contain;
+  height: auto;
+  margin-right: 0.8rem;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.resultList_poster:hover {
+  transform: scale(1.1);
+}
+
+.resultList_detail {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}

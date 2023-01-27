@@ -1,0 +1,33 @@
+.movieDetail {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.movieDetail_text {
+  color: white;
+  padding-right: 2rem;
+}
+
+.movieDetail_text h1 {
+  margin-bottom: 0.5rem;
+}
+
+.movieDetail_text hr {
+  margin-bottom: 1rem;
+}
+
+.movieDetail_text p {
+  margin-top: 1.5rem;
+  line-height: 1.3;
+}
+
+.movieDetail_image {
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.movieDetail_trailer {
+  padding-right: 2rem;
+}

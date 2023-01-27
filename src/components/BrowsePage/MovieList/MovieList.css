@@ -1,0 +1,44 @@
+.movieList {
+  color: #f8f9fa;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.movieList_images {
+  display: flex;
+  gap: 0.5rem;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.movieList_image {
+  width: 100%;
+  object-fit: contain;
+  height: 8rem;
+  margin-right: 0.8rem;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.movieList_image:hover {
+  transform: scale(1.1);
+}
+
+.movieList_imagePoster {
+  height: 16rem;
+}
+
+.movieList_imagePoster:hover {
+  transform: scale(1.1);
+}
+
+/* Scrollbar*/
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #18181b;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #212529;
+}
